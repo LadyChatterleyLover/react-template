@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg {
+  vertical-align: baseline;
+}
+
+html,
+body,
+#root,
+.ant-layout,
+.ant-layout-content,
+.ant-layout-sider,
+.ant-layout-sider-children,
+.ant-menu {
+  height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.ant-modal-content {
+  height: 75vh;
+  overflow: auto;
+}
